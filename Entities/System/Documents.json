@@ -1,0 +1,11 @@
+{
+  "Id": 3,
+  "GlobalId": "1d43eb8c-d64b-4673-96f9-7cb6bf91417c",
+  "BuiltInEntityType": "Documents",
+  "Properties": [
+    {
+      "Name": "FileName",
+      "GlobalId": "bad36635-4d41-4d42-8fa5-141da4685c0f"
+    }
+  ]
+}

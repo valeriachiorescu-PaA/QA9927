@@ -1,0 +1,427 @@
+{
+  "Settings": {
+    "LogoPath": "Static/logo.png",
+    "AppDefinitionPath": "Static/app.json"
+  },
+  "Pages": [
+    {
+      "GlobalId": "5199599d-79c5-48cc-8623-c3dca5abe24c",
+      "TabPath": "//Home",
+      "ContentPath": "Pages/Home/tab.xml"
+    },
+    {
+      "GlobalId": "2ac24944-1355-45a2-a575-8cd653e0bd3e",
+      "TabPath": "//SearchResults",
+      "ContentPath": "Pages/SearchResults/tab.xml"
+    },
+    {
+      "GlobalId": "affba01f-dc28-4920-a445-eaaad1112d0d",
+      "TabPath": "//404ErrorPage",
+      "ContentPath": "Pages/404ErrorPage/tab.xml"
+    },
+    {
+      "GlobalId": "2ea21ba4-e2a6-45e6-8caf-0976ff8f099c",
+      "TabPath": "//UserProfile",
+      "ContentPath": "Pages/UserProfile/tab.xml"
+    },
+    {
+      "GlobalId": "0c1ab6b0-24c4-4663-9cfd-3ce9fa49515d",
+      "TabPath": "//paa-login",
+      "ContentPath": "Pages/paa-login/tab.xml"
+    },
+    {
+      "GlobalId": "215961ec-6c45-451b-9fe1-2715d7db08ae",
+      "TabPath": "//reset-password",
+      "ContentPath": "Pages/reset-password/tab.xml"
+    },
+    {
+      "GlobalId": "a858ffd8-97ef-4f95-9c72-c102bf35c1eb",
+      "TabPath": "//forgot-password",
+      "ContentPath": "Pages/forgot-password/tab.xml"
+    },
+    {
+      "GlobalId": "30bfcb98-ef6d-425f-af26-546011c459d1",
+      "TabPath": "//registration",
+      "ContentPath": "Pages/registration/tab.xml"
+    },
+    {
+      "GlobalId": "c2a6ec71-c232-4c92-9002-e65e0ebe0130",
+      "ParentPageGlobalId": "d1a238cd-c3b6-47c2-bca4-2ebabc955c57",
+      "TabPath": "//QA9927s//Detail",
+      "ContentPath": "Pages/QA9927s/Detail/tab.xml"
+    },
+    {
+      "GlobalId": "d1a238cd-c3b6-47c2-bca4-2ebabc955c57",
+      "TabPath": "//QA9927s",
+      "ContentPath": "Pages/QA9927s/tab.xml"
+    }
+  ],
+  "Modules": [
+    {
+      "GlobalId": "3a7dca93-a7ef-4f00-9f3a-832c879da9e4",
+      "ParentPageId": "5199599d-79c5-48cc-8623-c3dca5abe24c",
+      "ModuleTitle": "Get Started",
+      "FriendlyName": "Text/HTML",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/Home/Get Started.xml"
+    },
+    {
+      "GlobalId": "ab84378c-c963-4aa5-ab98-b0febd5d7347",
+      "ParentPageId": "2ac24944-1355-45a2-a575-8cd653e0bd3e",
+      "ModuleTitle": "Header",
+      "FriendlyName": "Text/HTML",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/SearchResults/Header.xml"
+    },
+    {
+      "GlobalId": "9b47dd76-9cf5-4470-b4eb-738a46ceba69",
+      "ParentPageId": "2ac24944-1355-45a2-a575-8cd653e0bd3e",
+      "ModuleTitle": "avt.SearchBoost.Results",
+      "FriendlyName": "avt.SearchBoost.Results",
+      "PaneName": "ContentPane",
+      "Order": 3,
+      "ContentPath": "Pages/SearchResults/Untitled avt.SearchBoost.Results 3 in ContentPane.xml"
+    },
+    {
+      "GlobalId": "5067741d-ae43-4d1d-9d6a-93dd06d0dad9",
+      "ParentPageId": "affba01f-dc28-4920-a445-eaaad1112d0d",
+      "ModuleTitle": "Page cannot be found",
+      "FriendlyName": "Text/HTML",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/404ErrorPage/Page cannot be found.xml"
+    },
+    {
+      "GlobalId": "21034353-248e-44e7-9e42-917bea9a016d",
+      "ParentPageId": "2ea21ba4-e2a6-45e6-8caf-0976ff8f099c",
+      "ModuleTitle": "My Profile",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/UserProfile/My Profile.xml"
+    },
+    {
+      "GlobalId": "ac527fb3-efe6-44ed-a384-8807df7888b9",
+      "ParentPageId": "0c1ab6b0-24c4-4663-9cfd-3ce9fa49515d",
+      "ModuleTitle": "Login Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPaneCenter",
+      "Order": 1,
+      "ContentPath": "Pages/paa-login/Login Form.xml"
+    },
+    {
+      "GlobalId": "a476d415-0ff8-4043-a7bf-d94ca61885f1",
+      "ParentPageId": "0c1ab6b0-24c4-4663-9cfd-3ce9fa49515d",
+      "ModuleTitle": "Account Login",
+      "FriendlyName": "Account Login",
+      "PaneName": "DnnHiddenLogin",
+      "Order": 1,
+      "ContentPath": "Pages/paa-login/Untitled Account Login 1 in DnnHiddenLogin.xml"
+    },
+    {
+      "GlobalId": "33d4f17e-40a2-4d56-b510-b6545c840366",
+      "ParentPageId": "215961ec-6c45-451b-9fe1-2715d7db08ae",
+      "ModuleTitle": "Reset Password",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPaneCenter",
+      "Order": 1,
+      "ContentPath": "Pages/reset-password/Reset Password.xml"
+    },
+    {
+      "GlobalId": "64c36988-e683-4478-a5db-646c09d36ca6",
+      "ParentPageId": "a858ffd8-97ef-4f95-9c72-c102bf35c1eb",
+      "ModuleTitle": "Forgot Password",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPaneCenter",
+      "Order": 1,
+      "ContentPath": "Pages/forgot-password/Forgot Password.xml"
+    },
+    {
+      "GlobalId": "aa0ab878-1c16-49f8-8d5f-956d24fc6bfc",
+      "ParentPageId": "30bfcb98-ef6d-425f-af26-546011c459d1",
+      "ModuleTitle": "Register Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/registration/Register Form.xml"
+    },
+    {
+      "GlobalId": "ff74a452-4638-4729-91dc-613d607388bd",
+      "ParentPageId": "d1a238cd-c3b6-47c2-bca4-2ebabc955c57",
+      "ModuleTitle": "Header",
+      "FriendlyName": "Text/HTML",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/QA9927s/Header.xml"
+    },
+    {
+      "GlobalId": "7b574418-8ef9-4025-8a86-78110cb8683c",
+      "ParentPageId": "d1a238cd-c3b6-47c2-bca4-2ebabc955c57",
+      "ModuleTitle": "QA9927s Listing",
+      "FriendlyName": "avt.ActionGrid",
+      "PaneName": "ContentPane",
+      "Order": 3,
+      "ContentPath": "Pages/QA9927s/QA9927s Listing.xml"
+    },
+    {
+      "GlobalId": "42e3ed69-2e9e-470e-93c0-ccd94d8bb2ab",
+      "ParentPageId": "d1a238cd-c3b6-47c2-bca4-2ebabc955c57",
+      "ModuleTitle": "QA9927 Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 5,
+      "ContentPath": "Pages/QA9927s/QA9927 Form.xml"
+    },
+    {
+      "GlobalId": "c690fc37-6917-48b5-bd02-e1afe59e235e",
+      "ParentPageId": "c2a6ec71-c232-4c92-9002-e65e0ebe0130",
+      "ModuleTitle": "Header Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/QA9927s/Detail/Header Form.xml"
+    },
+    {
+      "GlobalId": "01ab5c70-d7ce-46ef-a5c5-554a8c6d07c8",
+      "ParentPageId": "c2a6ec71-c232-4c92-9002-e65e0ebe0130",
+      "ModuleTitle": "Details Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 3,
+      "ContentPath": "Pages/QA9927s/Detail/Details Form.xml"
+    },
+    {
+      "GlobalId": "61d90b90-d07f-43ac-a447-71cd2590dee6",
+      "ParentPageId": "c2a6ec71-c232-4c92-9002-e65e0ebe0130",
+      "ModuleTitle": "QA9927 Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 5,
+      "ContentPath": "Pages/QA9927s/Detail/QA9927 Form.xml"
+    },
+    {
+      "GlobalId": "cb2eb218-6433-4435-9131-e73169b8490e",
+      "ParentPageId": "c2a6ec71-c232-4c92-9002-e65e0ebe0130",
+      "ModuleTitle": "Tabs",
+      "FriendlyName": "avt.TabsPro",
+      "PaneName": "ContentPane",
+      "Order": 7,
+      "ContentPath": "Pages/QA9927s/Detail/Tabs.xml"
+    }
+  ],
+  "TokenNamespaces": [
+    {
+      "GlobalId": "fcf09ff1-7623-4759-824c-1c84bad48020",
+      "Name": "PAASysAutomation"
+    },
+    {
+      "GlobalId": "35cd78a1-42a7-4c31-a4ab-f4b1b795cd53",
+      "Name": "PAASysDocuments"
+    },
+    {
+      "GlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "Name": "PAASysUpdates"
+    },
+    {
+      "GlobalId": "4141c5ae-cceb-4f83-aa19-32c671725efd",
+      "Name": "PAASysUserGuide"
+    }
+  ],
+  "Tokens": [
+    {
+      "GlobalId": "f5dfe3d1-96a5-42a2-a58b-2c2975b28912",
+      "NamespaceGlobalId": "fcf09ff1-7623-4759-824c-1c84bad48020",
+      "DefinitionPath": "Tokens/PAASysAutomation/JobStatusLabel.json",
+      "SourcePath": "Tokens/PAASysAutomation/JobStatusLabel.cshtml"
+    },
+    {
+      "GlobalId": "3cc2b464-10f8-424f-905c-8a20bdd30685",
+      "NamespaceGlobalId": "35cd78a1-42a7-4c31-a4ab-f4b1b795cd53",
+      "DefinitionPath": "Tokens/PAASysDocuments/ConvertBtoMB.json",
+      "SourcePath": "Tokens/PAASysDocuments/ConvertBtoMB.cshtml"
+    },
+    {
+      "GlobalId": "7262c6af-4c52-4f2f-9ffb-5f735b032226",
+      "NamespaceGlobalId": "35cd78a1-42a7-4c31-a4ab-f4b1b795cd53",
+      "DefinitionPath": "Tokens/PAASysDocuments/FolderFileListingLink.json",
+      "SourcePath": "Tokens/PAASysDocuments/FolderFileListingLink.cshtml"
+    },
+    {
+      "GlobalId": "56d1163e-30de-45d3-a376-c9fcf2e632f9",
+      "NamespaceGlobalId": "35cd78a1-42a7-4c31-a4ab-f4b1b795cd53",
+      "DefinitionPath": "Tokens/PAASysDocuments/PortalRootFolderId.json"
+    },
+    {
+      "GlobalId": "45488827-3312-445e-a199-58fdfed2f22c",
+      "NamespaceGlobalId": "35cd78a1-42a7-4c31-a4ab-f4b1b795cd53",
+      "DefinitionPath": "Tokens/PAASysDocuments/RenderIcon.json",
+      "SourcePath": "Tokens/PAASysDocuments/RenderIcon.cshtml"
+    },
+    {
+      "GlobalId": "cb838c04-8152-466d-b09d-0ece33839b5d",
+      "NamespaceGlobalId": "35cd78a1-42a7-4c31-a4ab-f4b1b795cd53",
+      "DefinitionPath": "Tokens/PAASysDocuments/MoveFile.json",
+      "SourcePath": "Tokens/PAASysDocuments/MoveFile.cshtml"
+    },
+    {
+      "GlobalId": "bf73cdf4-f563-4670-a5e9-1251e964a91b",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/ActualModuleVersion.json"
+    },
+    {
+      "GlobalId": "ce932470-71e7-43ab-871f-171d22986930",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/AppBuilderVersion.json"
+    },
+    {
+      "GlobalId": "73694d11-f06e-423f-bd97-43ba49369c43",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/AppInstallChecker.json",
+      "SourcePath": "Tokens/PAASysUpdates/AppInstallChecker.cshtml"
+    },
+    {
+      "GlobalId": "4466d5a8-cb2b-4bc9-8dc8-ed903fab2fa2",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/ChangeLogRed.json",
+      "SourcePath": "Tokens/PAASysUpdates/ChangeLogRed.cshtml"
+    },
+    {
+      "GlobalId": "475d9330-e047-4467-b7c6-1f9a91b8fd7e",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/CheckIfAppIsDev.json"
+    },
+    {
+      "GlobalId": "dd0f3726-30c8-4af3-bfe2-c174d504f55a",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/CurrentDNNVersion.json"
+    },
+    {
+      "GlobalId": "6daf239e-1956-4df8-a1c1-0fa7d29831b7",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/GetHotfixHighestState.json"
+    },
+    {
+      "GlobalId": "e680fa06-15cb-47c0-9667-9e9257b0efc9",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/GetLastCheckedDate.json"
+    },
+    {
+      "GlobalId": "d4bdc1ce-b4da-4b0f-a5de-2d386d64d878",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/GetMajorUpdate.json"
+    },
+    {
+      "GlobalId": "21e498b6-5ce6-4456-8035-51cf531be2e2",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/GetMIDbyModuleName.json"
+    },
+    {
+      "GlobalId": "bba7891c-1bfe-46a7-a919-728af795dbb9",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/GetNextMajorVersion.json"
+    },
+    {
+      "GlobalId": "8d0b3710-2b66-4c1d-b616-177275cb4e81",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/GetUpdatesWFGUID.json"
+    },
+    {
+      "GlobalId": "3a9acbe7-1500-49fd-b7e2-efbfbdb4168a",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/HotfixCount.json"
+    },
+    {
+      "GlobalId": "6c8e4498-fc04-41ec-bc25-89558d646cb7",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/HotfixesBanner.json",
+      "SourcePath": "Tokens/PAASysUpdates/HotfixesBanner.cshtml"
+    },
+    {
+      "GlobalId": "3d664eb9-8e41-4105-86d0-9e4dfc2babee",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/HotfixesBannerToggle.json"
+    },
+    {
+      "GlobalId": "f75a5a10-c3c2-4374-99ac-4c227c32aca1",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/LastVersionReleased.json"
+    },
+    {
+      "GlobalId": "c87aa991-f8dc-4cdd-9cd9-abd335a2abf8",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/NextDNNVersion.json"
+    },
+    {
+      "GlobalId": "54a9a5b9-9cfb-4776-8931-94f96cbc82dc",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/ReleaseVersion.json",
+      "SourcePath": "Tokens/PAASysUpdates/ReleaseVersion.cshtml"
+    },
+    {
+      "GlobalId": "e8b07ee5-f7b1-4317-959c-51ddf7cc651e",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/VersionCompare.json",
+      "SourcePath": "Tokens/PAASysUpdates/VersionCompare.cshtml"
+    },
+    {
+      "GlobalId": "37c1313b-e36b-4b0c-8500-f594a1ccbd20",
+      "NamespaceGlobalId": "92f9c9d4-f601-45dd-a827-22cddb7b5c0a",
+      "DefinitionPath": "Tokens/PAASysUpdates/VersionConvert.json",
+      "SourcePath": "Tokens/PAASysUpdates/VersionConvert.cshtml"
+    },
+    {
+      "GlobalId": "17e3273e-aaab-4c1f-a620-6ef1f09ae69b",
+      "NamespaceGlobalId": "4141c5ae-cceb-4f83-aa19-32c671725efd",
+      "DefinitionPath": "Tokens/PAASysUserGuide/GetNextEntityName.json"
+    }
+  ],
+  "Namespaces": [],
+  "BuiltInEntities": [
+    {
+      "BuiltInEntityType": "Users",
+      "ContentPath": "Entities/System/Users.json"
+    },
+    {
+      "BuiltInEntityType": "Roles",
+      "ContentPath": "Entities/System/Roles.json"
+    },
+    {
+      "BuiltInEntityType": "Documents",
+      "ContentPath": "Entities/System/Documents.json"
+    },
+    {
+      "BuiltInEntityType": "Images",
+      "ContentPath": "Entities/System/Images.json"
+    }
+  ],
+  "Entities": [
+    {
+      "GlobalId": "9233efbd-644d-4ee0-aea6-010a7dc4cdf3",
+      "NamespaceGlobalId": "51f39376-22f8-4196-825c-f891ce55e010",
+      "ContentPath": "Entities/Default/QA9927.json"
+    }
+  ],
+  "ApiMethods": [],
+  "Roles": [],
+  "SchedulerJobs": [],
+  "Connectors": [
+    {
+      "GlobalId": "c5e4b0d8-b0e0-4cbf-9b05-fe9aba746d67",
+      "ContentPath": "Connectors/Built-in Database.json"
+    },
+    {
+      "GlobalId": "4478abbc-d108-4a38-9bde-5a4836487f84",
+      "ContentPath": "Connectors/Default SMTP.json"
+    }
+  ],
+  "Workflows": [
+    {
+      "GlobalId": "ef26cf67-5294-48b9-b1f3-66b050ee77aa",
+      "NamespaceGlobalId": "3abcebc7-6873-478c-81b1-baf8c506ac70",
+      "DefinitionPath": "Workflows/System/Get App Builder Updates/workflow.json",
+      "DiagramPath": "Workflows/System/Get App Builder Updates/diagram.xml"
+    }
+  ]
+}
